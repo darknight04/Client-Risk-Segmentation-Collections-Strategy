@@ -1,1 +1,1 @@
-# Client-Risk-Segmentation-Collections-Strategy
+# Client Risk Segmentation & Collections Strategy
