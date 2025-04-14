@@ -17,7 +17,7 @@ This project predicts loan default risk and segments clients into actionable ris
 
 ---
 
-## 📊 Features Engineered
+## Features Engineered
 
 | Feature                  | Description |
 |--------------------------|-------------|
@@ -30,7 +30,7 @@ This project predicts loan default risk and segments clients into actionable ris
 
 ---
 
-## 🎯 Model Output
+## Model Output
 
 After training a logistic regression model on 100,000 clients, each test client is scored (`P_1`) with the **probability of default**. Clients are then segmented:
 
