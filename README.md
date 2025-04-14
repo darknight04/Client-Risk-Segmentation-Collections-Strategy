@@ -1,4 +1,4 @@
-# Client Risk Segmentation & Collections Strategy
+# Credit Risk Segmentation & Collections Strategy
 
 This project predicts loan default risk and segments clients into actionable risk categories (High, Medium, Low) to support early collections intervention strategies. Built using the **Home Credit Default Risk dataset**, the project simulates real-world credit risk analytics work — ideal for financial institutions.
 
