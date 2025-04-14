@@ -65,7 +65,7 @@ Here’s how clients were segmented by risk:
 
 Each test client was assigned a risk score and strategy:
 
-![Scored Clients Sample](screenshots/scored_clients_sample.png)
+![Scored Clients Sample](scored_clients_sample.png)
 
 ---
 ## Notes
