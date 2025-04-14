@@ -76,6 +76,26 @@ Each test client was assigned a risk score and strategy:
 
 ---
 
+## Next Steps
+
+I aim to expand this study in several impactful ways:
+
+- ** Incorporate Bureau Data into the Model**  
+  Although bureau features were aggregated and joined, they were not yet used in model training. I aim to include important variables like total debt, overdue amounts, and number of active external credits to improve predictive power. 
+
+- **Model Performance Tuning**  
+  Evaluate the model using AUC/ROC curves and confusion matrices. Ill explore alternative thresholds, feature scaling, or nonlinear transformations to better separate high-risk clients.
+
+- **Handle Class Imbalance**  
+  Since defaults are relatively rare (`TARGET=1`), I will explore techniques like oversampling (SMOTE), undersampling, or weight adjustments to balance the data and improve recall.
+
+- **Trying Alternative Algorithms**  
+  Ill evaluate model performance from popular tree-based models (e.g., decision trees, random forest, gradient boosting) using Python (scikit-learn or XGBoost) for potentially stronger classification.
+
+- ** Deploy Risk Score in Real-Time Simulation**  
+  Integrate scoring into a simulated dashboard or decision engine that takes in new applications and recommends a collection strategy dynamically.
+
+
 ## Author
 
 **Riya Aggarwal** 
