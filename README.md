@@ -61,7 +61,7 @@ This approach enables the collections team to:
 
 Here’s how clients were segmented by risk:
 
-![Risk Segment Frequencies](screenshots/risk_segment_freq.png)
+![Risk Segment Frequencies]([screenshots/risk_segment_freq.png](https://github.com/darknight04/Client-Risk-Segmentation-Collections-Strategy/blob/main/risk_segment_freq.png))
 
 Each test client was assigned a risk score and strategy:
 
