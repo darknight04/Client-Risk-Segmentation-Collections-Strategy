@@ -57,6 +57,17 @@ This approach enables the collections team to:
 
 ---
 
+## 🔍 Sample Output
+
+Here’s how clients were segmented by risk:
+
+![Risk Segment Frequencies](screenshots/risk_segment_freq.png)
+
+Each test client was assigned a risk score and strategy:
+
+![Scored Clients Sample](screenshots/scored_clients_sample.png)
+
+---
 ## Notes
 
 - Data used is from the [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk) public dataset.
