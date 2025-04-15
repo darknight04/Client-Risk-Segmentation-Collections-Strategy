@@ -109,7 +109,6 @@ quit;
 data app_test_clean;
 	set app_test;
 
-	/* Same transformations as training */
 	AGE_YEARS = -DAYS_BIRTH / 365;
 	EMPLOYED_YEARS = ifn(DAYS_EMPLOYED in (365243, .), ., -DAYS_EMPLOYED / 365);
 	CREDIT_INCOME_RATIO = AMT_CREDIT / AMT_INCOME_TOTAL;
