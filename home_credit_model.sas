@@ -54,7 +54,7 @@ run;
 
 
 /* -----------------------------------------------
-   STEP 4: Segment Clients in Training Set (Optional)
+   STEP 4: Segment Clients in Training Set 
 ------------------------------------------------ */
 data risk_segmented;
 	set predicted;
@@ -92,7 +92,7 @@ proc sql;
 	group by SK_ID_CURR;
 quit;
 
-/* Join with training data (optional if enriching model further) */
+/* Join with training data */
 proc sql;
 	create table app_train_enriched as
 	select a.*, b.TOTAL_CREDIT, b.TOTAL_DEBT, b.TOTAL_OVERDUE, 
